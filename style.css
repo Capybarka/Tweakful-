@@ -208,3 +208,25 @@ main {
 }
 
 /* benefit container */
+.benefit-container {
+    border: 1px solid black;
+    width: 1114px;
+    margin: 0 auto;
+    margin-bottom: 152px;
+}
+
+.benefit-wrapper {
+    display: flex;
+    justify-content: space-between;
+    ;
+}
+
+.benefit-list-item {
+    display: flex;
+    width: 408px;
+    margin-bottom: 50px;
+}
+
+.benefit-list li:last-child {
+    margin-bottom: 0;
+}
