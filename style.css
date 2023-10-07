@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     font-size: 16px;
+    font-weight: 400;
     font-family: 'Inter', sans-serif;
 }
 
@@ -26,7 +27,7 @@ ul {
 }
 
 ol,
-ul{
+ul {
     list-style: none;
 }
 
@@ -37,4 +38,77 @@ img {
 
 a {
     text-decoration: none;
+}
+
+/* /////////////// */
+header {
+    padding-left: 111px;
+    padding-right: 129px;
+    padding-top: 21px;
+}
+
+.main-nav {
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 165px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-right: 53px;
+}
+
+.logo p {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.logo-img {
+    display: block;
+}
+
+.main-nav {
+    display: flex;
+}
+
+.main-nav-list {
+    display: flex;
+    gap: 31px;
+    align-items: center;
+}
+
+.main-nav-list-item a {
+    color: #191919;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.main-nav-a-wrapper {
+    background-color: rgba(46, 79, 215, 1);
+    margin-left: auto;
+    padding: 5px 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main-nav-a,
+.main-nav-a-arrow,
+.main-nav-a-arrow img {
+    display: block;
+}
+
+.main-nav-a {
+    color: #FFF;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.main-nav-a-arrow img {
+    width: 20px;
+    height: 10px;
 }
