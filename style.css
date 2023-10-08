@@ -2,6 +2,8 @@ html {
     box-sizing: border-box;
     font-size: 16px;
     font-weight: 400;
+    color: #18191F;
+    line-height: 26px;
     font-family: 'Inter', sans-serif;
 }
 
@@ -40,9 +42,8 @@ a {
     text-decoration: none;
 }
 
-/* /////////////// */
 body {
-    /* background-color: rgb(233, 233, 233); */
+    background-color: rgb(246, 246, 246);
 }
 
 header {
@@ -419,4 +420,59 @@ main {
 .story-dots-img {
     width: 26px;
     height: 6px;
+}
+
+/* The process we follow */
+.process-container {
+    width: 1100px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.process-title {
+    color: #18191F;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 52px;
+}
+
+.process-list {
+    display: flex;
+    gap: 30px;
+}
+
+.process-decoration-wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.line {
+    width: 183px;
+    height: 0;
+    border: none;
+    border-top: 2px dashed #2E4FD7;
+    opacity: 0.4;
+}
+
+.process-list-item {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    width: 255px;
+}
+
+.circel-block {
+    background-color: rgba(46, 79, 215, 1);
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.process-list-item-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    margin-bottom: 4px;
 }
