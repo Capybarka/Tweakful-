@@ -354,3 +354,62 @@ main {
     color: #18191F;
     line-height: 26px;
 }
+
+.story-container {
+    width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    gap: 47px;
+    margin-bottom: 115px;
+}
+
+.story-title {
+    color: #191919;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 32px;
+}
+
+.story-text {
+    width: 588px;
+    color: #1E1E1E;
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 32px;
+}
+
+.story-logitech-logo {
+    width: 105px;
+    height: 31px;
+}
+
+.story-a-wrapper {
+    display: block;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.story-a-wrapper p {
+    color: #2E4FD7;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.story-a-wrapper img {
+    width: 20px;
+    height: 10px;
+}
+
+.story-img {
+    width: 380px;
+    height: 420px;
+}
+
+.story-dots-img {
+    width: 26px;
+    height: 6px;
+}
