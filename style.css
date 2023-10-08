@@ -584,3 +584,13 @@ main {
 }
 
 /* footer */
+footer{
+    background-color: rgba(5, 40, 37, 1);
+    color: white;
+}
+
+.footer-container{
+    width: 1170px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
